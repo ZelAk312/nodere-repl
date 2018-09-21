@@ -5,8 +5,9 @@ A node repl that reload requires on file changes, more comming soon
 # How to install
 `npm -g i zelak312/nodere-repl`
 
-# How to use it
+# How to use it (in a terminal)
 ```js
+$ nodere-repl
 -> test = _require("./test.js")
 'ahah' // the test.js is currently exporting 'ahah'
 // change the test.js file with anything you want for example make it export 'hi'
